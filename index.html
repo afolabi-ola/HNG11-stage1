@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Tech Goals</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="/IMAGES/myslackprofilepic.png"
+        alt="Slack Profile Picture"
+        data-testid="slackProfilePicture"
+        id="profile-picture"
+      />
+      <h1 data-testid="slackDisplayName" id="slack-name">
+        Afolabi Quadri Olasunkanmi
+      </h1>
+      <div class="toggle-container">
+        <input
+          type="checkbox"
+          id="toggle-mode"
+          class="toggle-checkbox"
+          onchange="toggleMode()"
+        />
+        <label for="toggle-mode" class="toggle-label"></label>
+      </div>
+    </header>
+    <main>
+      <section>
+        <h2>Current Time and Date</h2>
+        <p data-testid="currentTimeUTC" id="current-time-utc"></p>
+        <p data-testid="currentDay" id="current-day"></p>
+      </section>
+      <section>
+        <h2>Contact Information</h2>
+        <p data-testid="slackEmail" id="slack-email">
+          afolabiquadri28@gmail.com
+        </p>
+      </section>
+      <section>
+        <h2>My Tech Goals for the Next 2 Years</h2>
+        <div class="goals-cont">
+          <div class="goal">
+            <h3>Mastering Full-Stack Development</h3>
+            <p>
+              With a strong foundation in web and app development, I am
+              committed to mastering full-stack development over the next two
+              years. My goal is to become proficient in both frontend and
+              backend technologies, enabling me to build robust and scalable
+              applications.
+            </p>
+            <ul>
+              <li>
+                Deepen my knowledge of modern frontend frameworks like React,
+                Vue, and Angular
+              </li>
+              <li>
+                Gain proficiency in backend technologies, including Node.js,
+                Express, and databases like MongoDB and PostgreSQL
+              </li>
+              <li>
+                Develop and deploy full-stack applications to enhance my
+                portfolio
+              </li>
+            </ul>
+          </div>
+          <div class="goal">
+            <h3>Building and Deploying an AI Application</h3>
+            <p>
+              As part of my long-term aspiration to create my own AI, I aim to
+              build and deploy a real-world AI application. This journey will
+              involve learning the intricacies of machine learning and
+              artificial intelligence.
+            </p>
+            <ul>
+              <li>
+                Enroll in online courses and obtain certifications in machine
+                learning and AI.
+              </li>
+              <li>
+                Start with small AI projects such as chatbots and recommendation
+                systems, progressively tackling more complex applications.
+              </li>
+              <li>
+                Learn about deploying AI models using cloud services like AWS,
+                Google Cloud, and Azure.
+              </li>
+            </ul>
+          </div>
+          <div class="goal">
+            <h3>Gaining Cybersecurity Expertise</h3>
+            <p>
+              Cybersecurity is a critical field that I am passionate about. My
+              goal is to build a solid foundation in cybersecurity and achieve
+              relevant certifications to bolster my expertise.
+            </p>
+            <ul>
+              <li>
+                Participate in courses and boot camps focusing on cybersecurity
+                fundamentals.
+              </li>
+              <li>
+                Earn certifications such as CompTIA Security+, Certified Ethical
+                Hacker (CEH), and CISSP.
+              </li>
+              <li>
+                Engage in hands-on practice through cybersecurity challenges and
+                hackathons on platforms like Hack The Box and TryHackMe.
+              </li>
+            </ul>
+          </div>
+          <div class="goal">
+            <h3>Contributing to Open Source Projects</h3>
+            <p>
+              I believe in the power of community and collaboration. Over the
+              next two years, I plan to actively contribute to open-source
+              projects, enhancing my skills, expanding my network, and giving
+              back to the tech world.
+            </p>
+            <ul>
+              <li>
+                Identify and explore open-source projects that align with my
+                interests on platforms like GitHub and GitLab.
+              </li>
+              <li>
+                Start by contributing to documentation and bug fixes, gradually
+                moving on to more significant features.
+              </li>
+              <li>
+                Participate in community discussions, attend virtual meetups,
+                and collaborate with fellow developers.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <a href="https://hng.tech/learn" data-testid="hngLink" target="_blank"
+        >hng.tech/learn</a
+      >
+      <a href="https://keyword.dog" data-testid="keywordLink" target="_blank"
+        >keyword.dog</a
+      >
+      <a
+        href="https://scrapeanyweb.site"
+        data-testid="scrapeanywebLink"
+        target="_blank"
+        >scrapeanyweb.site</a
+      >
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
