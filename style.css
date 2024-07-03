@@ -204,3 +204,16 @@ footer.light-mode {
     font-size: 1.5rem;
   }
 }
+@media screen and (max-width: 547px) {
+  header{
+    display: flex;
+   flex-wrap: wrap;
+    align-items: center;
+  }
+ .toggle-container{
+  position: absolute;
+  top: 10%;
+  right: 30px;
+ }
+
+}
